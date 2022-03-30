@@ -1,0 +1,34 @@
+@import url(common/reset.css);
+
+.section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .sec-con{
+  flex: 0 1 1600px;
+}
+.section .sec-con ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section .sec-con ul>li{
+  flex: 0 1 24.5%;
+  margin: 1% 0;
+  transition: all 0.5s;
+}
+.section .sec-con ul>li img{
+  width: 100%;
+}
+.section .sec-con ul>li p{
+  background-color: thistle;
+  font-size: 12px;
+  text-align: center;
+}
+.on{
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #000;
+}
